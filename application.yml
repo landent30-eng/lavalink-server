@@ -44,7 +44,7 @@ plugins:
 
     spotify:
       clientId: "6fe734ac61614e4f89a9be9a973f74d2"
-      clientSecret: "c145088dcee24b9eb83a8933edc2f6c9"
+      clientSecret: "dd3f231f2f0b4d1186aa0a8a31a75f86"
       countryCode: "CA"
       playlistLoadLimit: 50
       albumLoadLimit: 6
