@@ -13,7 +13,7 @@ lavalink:
       http: true
       local: false
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.7.1"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
       snapshot: false
 plugins:
   youtube:
