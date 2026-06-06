@@ -1,5 +1,6 @@
 server:
   port: 8080
+
 lavalink:
   server:
     password: "youshallnotpass"
@@ -8,11 +9,16 @@ lavalink:
       soundcloud: true
       http: true
       local: false
+
   plugins:
-    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.13.5"
+      repository: "https://maven.lavalink.dev/releases"
       snapshot: false
+
     - dependency: "com.github.topi314.lavasrc:lavasrc-plugin:4.8.3"
+      repository: "https://maven.lavalink.dev/releases"
       snapshot: false
+
 plugins:
   youtube:
     enabled: true
@@ -24,15 +30,18 @@ plugins:
       - ANDROID_VR
       - WEB
       - WEBEMBEDDED
+
   lavasrc:
     providers:
       - "ytsearch:%QUERY%"
       - "scsearch:%QUERY%"
+
     sources:
       spotify: true
       applemusic: false
       deezer: false
       yandexmusic: false
+
     spotify:
       clientId: "6fe734ac61614e4f89a9be9a973f74d2"
       clientSecret: "c145088dcee24b9eb83a8933edc2f6c9"
