@@ -27,9 +27,7 @@ plugins:
     allowDirectPlaylistIds: true
     clients:
       - MUSIC
-      - ANDROID_VR
-      - WEB
-      - WEBEMBEDDED
+      - WEB_EMBEDDED
 
   lavasrc:
     providers:
