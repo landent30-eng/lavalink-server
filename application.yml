@@ -11,7 +11,7 @@ lavalink:
       local: false
 
   plugins:
-   - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
+    - dependency: "dev.lavalink.youtube:youtube-plugin:1.18.1"
       repository: "https://maven.lavalink.dev/releases"
       snapshot: false
 
@@ -43,8 +43,8 @@ plugins:
       yandexmusic: false
 
     spotify:
-      clientId: "6fe734ac61614e4f89a9be9a973f74d2"
-      clientSecret: "dd3f231f2f0b4d1186aa0a8a31a75f86"
+      clientId: "PASTE_YOUR_SPOTIFY_CLIENT_ID_HERE"
+      clientSecret: "PASTE_YOUR_NEW_SPOTIFY_CLIENT_SECRET_HERE"
       countryCode: "CA"
       playlistLoadLimit: 50
       albumLoadLimit: 6
